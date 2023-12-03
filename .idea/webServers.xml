@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cd7706f0-edba-420b-968d-4ae91a9a3157" name="jap_django">
+        <fileTransfer accessType="SFTP" host="207.211.157.169" port="22" sshConfigId="8e3db443-cf92-4d79-9848-c3d89e6dc6aa" sshConfig="opc@207.211.157.169:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="eaac2457-cd46-428f-9804-895daef495ef" name="django_mlb">
+        <fileTransfer rootFolder="/home/opc" accessType="SFTP" host="207.211.157.169" port="22" sshConfigId="8e3db443-cf92-4d79-9848-c3d89e6dc6aa" sshConfig="opc@207.211.157.169:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

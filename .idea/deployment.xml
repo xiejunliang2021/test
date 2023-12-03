@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="jap_django" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="django_mlb">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/django_jap" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="jap_django">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/opc/django_jap" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
